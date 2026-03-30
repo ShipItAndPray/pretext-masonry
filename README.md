@@ -1,5 +1,9 @@
 # @shipitandpray/pretext-masonry
 
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://shipitandpray.github.io/pretext-masonry/) [![GitHub](https://img.shields.io/github/stars/ShipItAndPray/pretext-masonry?style=social)](https://github.com/ShipItAndPray/pretext-masonry)
+
+> **[View Live Demo](https://shipitandpray.github.io/pretext-masonry/)**
+
 [![npm version](https://img.shields.io/npm/v/@shipitandpray/pretext-masonry.svg)](https://www.npmjs.com/package/@shipitandpray/pretext-masonry)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/@shipitandpray/pretext-masonry)](https://bundlephobia.com/package/@shipitandpray/pretext-masonry)
 
