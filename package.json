@@ -1,0 +1,59 @@
+{
+  "name": "@shipitandpray/pretext-masonry",
+  "version": "1.0.0",
+  "description": "Masonry/Pinterest grid with predictive text card heights and virtualization. Zero layout flash. Powered by @chenglou/pretext.",
+  "author": "ShipItAndPray",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "sideEffects": false,
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:perf": "vitest run tests/performance.test.ts",
+    "demo": "cd demo && npx vite",
+    "demo:build": "cd demo && npx vite build --base=/pretext-masonry/"
+  },
+  "peerDependencies": {
+    "@chenglou/pretext": ">=0.0.3",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@chenglou/pretext": "^0.0.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/jest-dom": "^6.6.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "jsdom": "^25.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  },
+  "keywords": [
+    "masonry",
+    "pinterest",
+    "grid",
+    "layout",
+    "virtualized",
+    "pretext",
+    "react",
+    "text-cards",
+    "waterfall",
+    "zero-flash",
+    "predictive-height"
+  ]
+}
